@@ -8,7 +8,7 @@
 * *Date Created*: 16 Jan 2024
 * *Last Modification Date*: DD MMM YYYY
 * *Lab URL*: <https://web.cs.dal.ca/~macculloch/git/csci3172/lab1/>
-* *Git URL*: <https://git.cs.dal.ca/macculloch/lab1>
+* *Git URL*: <https://git.cs.dal.ca/macculloch/csci-3172/-/tree/main/labs/lab1>
 
 
 

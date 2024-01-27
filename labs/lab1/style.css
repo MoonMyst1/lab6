@@ -1,0 +1,95 @@
+body {
+    background-color: #e791bf;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #d74894;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100vw;
+    color: #f7daea;
+}
+
+header img {
+    width: auto;
+    height: 6vh;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    margin-right: 2.5vw
+}
+
+div.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+div.flex-container h1 {
+    font-size: 5vh;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 2.5vh;
+    display:flex;
+}
+
+div.row {
+    width: 100vw;
+    margin-top: 12.5vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+div.column {
+    float: left;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    background-color: #efb6d4;
+    color: #df6da9;
+}
+
+div.column p {
+    font-size: 2vh;
+    max-width: 90%;
+    max-height: 95%;
+    padding-left: 5%;
+}
+
+div.column.main {
+    width: 70vw;
+    text-align: center;
+}
+
+div.column.main img {
+    height: 1.5em;
+    width: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    vertical-align: sub;
+}
+
+div.column.main img.star_2 {
+    transform: scaleX(-1);
+}
+
+div.column h1 {
+    text-align: center;
+    font-size: 3vh;
+}
+
+div.column.side {
+    width: 20vw;
+}
+
+footer {
+    background-color: #d74894;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    color: #f7daea;
+    text-align: center;
+    font-size: 2vh;
+}

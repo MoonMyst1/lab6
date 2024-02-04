@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Lab 2</title>
+    </head>
+        
+    <body>
+        <script>
+            // a)
+            const radius = 6;
+            findCircleArea(radius);
+
+            function findCircleArea(radius) {
+                console.log(Math.PI * radius ** 2);  
+            }
+
+            // b)
+            const firstNum = 1;
+            const secondNum = 2;
+            const sign = "+"
+
+            basicCalculator(firstNum, secondNum, sign);
+
+            function basicCalculator(first, second, sign) {
+                if (sign = "+") {
+                    console.log(first + second);
+                } else if (sign = "-") {
+                    console.log(first - second);
+                } else if (sign = "*") {
+                    console.log(first * second);
+                } else if (sign = "/") {
+                    console.log(first / second);
+                } else {
+                    console.log("Please enter an arithmetic sign from the following list: +, -, *, /");
+                }
+            }
+
+            // b alternative)
+
+            add(firstNum, secondNum);
+            sub(firstNum, secondNum);
+            mult(firstNum, secondNum);
+            div(firstNum, secondNum);
+
+            function add(first, second) {
+                console.log(first + second);
+            }
+
+            function sub(first, second) {
+                console.log(first - second);
+            }
+
+            function mult(first, second) {
+                console.log(first * second);
+            }
+
+            function div(first, second) {
+                console.log(first / second);
+            }
+
+            // c)
+            const recLength = 20;
+            const recWidth = 15;
+
+            findArea(recLength, recWidth);
+
+            function findArea(length, width) {
+                console.log(length * width);
+            }
+
+            /* Q1: What is the scope of a const variable?
+            *  A1: Const variables have a scope of code blocks and of related functions.
+            *  Q2: When were the let and const keywords added to JavaScript?
+            *  A2: 2015, with the introduction of ES6.
+            */
+
+
+
+
+        </script>
+    </body>
+</html>

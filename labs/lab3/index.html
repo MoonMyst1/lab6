@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>CSCI 3172 - Lab 3</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Please input information</h1>
+        <form method="post">
+            <input type="text" placeholder="First Name" name="First Name" id="firstName">
+            <input type="text" placeholder="Last Name" name="Last Name" id="lastName">
+            <p>Male</p>
+            <input type="radio" name="gender" id="Male" value="Male">
+            <p>Female</p>
+            <input type="radio" name="gender" id="Female" value="Female">
+            <p>Non-Binary</p>
+            <input type="radio" name="gender" id="Non-Binary" value="Non-Binary">
+            <label for="country">Country</label>
+            <select id="country">
+                <option value = "Canada">Canada</option>
+                <option value = "Not Canada">Other</option>
+            </select>
+
+            <input type="submit" name="submit" onclick="display()">
+        </form>
+        <script src="script.js"></script>
+    </body>

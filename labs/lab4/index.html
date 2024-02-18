@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>CSCI 3172 - Lab 4</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Lab 4</h1>
+        <div id="daysDiv">
+            <select id="days" onchange="changeColor()">
+                <option value = "Default">Please select a day:</option>
+                <option value = "Monday">Monday</option>
+                <option value = "Tuesday">Tuesday</option>
+                <option value = "Wednesday">Wednesday</option>
+                <option value = "Thursday">Thursday</option>
+                <option value = "Friday">Friday</option>
+                <option value = "Saturday">Saturday</option>
+                <option value = "Sunday">Sunday</option>
+            </select>
+        </div>
+        <form method="post">
+            <input type="text" placeholder="Enter a Number: " name="number" id="number">
+
+            <input type="submit" name="submit" onclick="checkNumber()">
+        </form>
+        <script src="js/script.js"></script>
+    </body>
+</html>

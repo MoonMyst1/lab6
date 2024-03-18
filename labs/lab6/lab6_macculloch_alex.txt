@@ -1,0 +1,27 @@
+<!--- The following README.md sample file was adapted from https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md by Gabriella Mosquera for academic use ---> 
+<!--- You may delete any comments in this sample README.md file. If needing to use as a .txt file then simply delete all comments, edit as needed, and save as a README.txt file --->
+
+
+
+# Lab 6 Activity
+
+* *Date Created*: 15 Mar 2024
+* *Last Modification Date*: 18 Mar 2024
+* *Lab URL*: <https://web.cs.dal.ca/~macculloch/git/csci3172/lab6/>
+* *Git URL*: <https://git.cs.dal.ca/macculloch/csci-3172/-/tree/main/labs/lab6>
+
+## Built With
+
+<!--- Provide a list of the frameworks used to build this application, your list should include the name of the framework used, the url where the framework is available for download and what the framework was used for, see the example below --->
+
+* [Node.js](https://reactjs.org/) - The boilerplate code
+
+## Sources Used
+* kirbo_icon.png: https://www.deviantart.com/vsegaheroesno/art/Kirbo-TerminalMontage-PNG-919577015
+* kirby-spinning.gif: https://tenor.com/en-CA/view/kirby-spinning-star-gif-17486376
+* youtube video: https://www.youtube.com/watch?v=KaZN4EVVzRY
+
+## Authors
+
+* [Alex MacCulloch](cl496753@dal.ca) - *Main Dev*
+

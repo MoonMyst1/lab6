@@ -9,6 +9,7 @@
 * *Last Modification Date*: 18 Mar 2024
 * *Lab URL*: <https://web.cs.dal.ca/~macculloch/git/csci3172/lab6/>
 * *Git URL*: <https://git.cs.dal.ca/macculloch/csci-3172/-/tree/main/labs/lab6>
+* *Netify URL*: <https://csci3172-lab6-alex-macculloch.netlify.app/>
 
 ## Built With
 
